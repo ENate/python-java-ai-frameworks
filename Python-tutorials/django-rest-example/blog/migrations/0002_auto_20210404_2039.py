@@ -5,16 +5,11 @@ from django.db import migrations
 
 class Migration(migrations.Migration):
 
-    dependencies = [
-        ('blog', '0001_initial'),
-    ]
+    dependencies = [("blog", "0001_initial")]
 
     operations = [
-        migrations.DeleteModel(
-            name='PostObjects',
-        ),
+        migrations.DeleteModel(name="PostObjects"),
         migrations.AlterModelOptions(
-            name='post',
-            options={'ordering': ('-published',)},
+            name="post", options={"ordering": ("-published",)}
         ),
     ]

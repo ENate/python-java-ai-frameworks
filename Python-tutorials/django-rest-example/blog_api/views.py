@@ -1,18 +1,21 @@
 from blog.models import Post
 from rest_framework import generics
 from .serializers import PostSerializer
+
 # Create your views here.
 # List items
 class PostList(generics.ListCreateAPIView):
-    queryset = Post.postobjects.all() # return all published flagged posts as customized posts
+    queryset = (
+        Post.postobjects.all()
+    )  # return all published flagged posts as customized posts
     serializer_class = PostSerializer
-
 
 
 # retreive and destroy
 class PostDetail(generics.RetrieveAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+
 
 """ Concrete View Classes
 #CreateAPIView
