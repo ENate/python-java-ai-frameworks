@@ -17,5 +17,5 @@ public class LambdaExampleTests {
         int resultInterger = calculator.additionOperator(4, 10);
         assertEquals(14, resultInterger);
     }
-    
+
 }

@@ -1,26 +1,33 @@
-# several-java-python-tutorials
-The tutprial is meant to highlight some essential Java and Python basic Data Structures and Algorithms. Emphasis is to relate these topics to moderm Machine learning and AI based problems.
+## several-java-python-tutorials
 
-Python-tutorials: - containing the following folders:
+1. Tutorial consist of essential Java and Python Data Structures and Algorithms.
+
+### Python-tutorials: - containing the following folders:
+
 - Algorithms
 - Data Structures
 - Machine Learning
 
-Java-tutorials contains:
+### Java-tutorials contains:
+
 - Algorithms
 - Data Structures
 - Machine Learning Algorithms
+
+### Kafka spring examples
+
+### Spring Tensorflow examples
 
 The structure of the entire folder is shown below:
 
 ├── Algorithms
 │   ├── SortingAlgorithm
 │   └── Sums
-│       ├── algorithms
-│       │   └── SortingAlgorithm
-│       │       └── quicksort
-│       ├── SumOfArrayElements.class
-│       └── SumOfArrayElements.java
+│   ├── algorithms
+│   │   └── SortingAlgorithm
+│   │   └── quicksort
+│   ├── SumOfArrayElements.class
+│   └── SumOfArrayElements.java
 ├── Data-Structures
 │   └── page01
 ├── java-10-features
