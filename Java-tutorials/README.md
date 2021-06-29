@@ -16,10 +16,10 @@ Conceptually, merge sort works as follows in recursive fashion:
 
 When to use Merge Sort:
 
-- Merge sort is used when the data structure doesn’t support random access, since it works with pure sequential access (forward iterators, rather than random access iterators). It’s also widely used for external sorting, where random access can be very, very expensive compared to sequential access. For example, When sorting a file which doesn’t fit into memory, you might break it into chunks which fit into memory, sort these using independently, writing each out to a file, then merge sort the generated files.
+- Not suitable in situations where the data structure doesn’t support random access, because it works with pure sequential access (forward iterators, rather than random access iterators). Also widely used for external sorting: where random access can be very expensive compared to sequential access. For example, When sorting a file which doesn’t fit into memory can be broken into chunks and sorted independently, writing each out to a file, then merge sort the generated files.
 
 - Also, you can use merge sort when you need a stable sort. It’s very important feature of merge sort.
-- Mergesort is quicker when dealing with linked lists. This is because pointers can easily be changed when merging lists. It only requires one pass (O(n)) through the list.
+- Merge sort is quicker when dealing with linked lists. This is because pointers can easily be changed when merging lists. It only requires one pass (O(n)) through the list.
 - If there is a lot of parallelization occurs then parallelizing Mergesort is simpler than other sort algorithms.
 
   3). Bubble Sort
