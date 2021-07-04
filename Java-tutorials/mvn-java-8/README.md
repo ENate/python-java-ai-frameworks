@@ -1,13 +1,26 @@
-### Main Features of Java 8:
+# Main Features of Java 8:
 
-We begin this tutorial with a look at specific APIs in Java 8. The discussion is restricted to these Java 8 features because they signify a hugh change in the Java Programming API.
+This tutorial presents some of the features introduced in Java 8+. The discussion is focused on major changes added to the Java 8 library. In parts of the discussion, we mention some of the changes which were added in Java 5!
  In this part of the tutorial, we cover the following topics:
 
-- Lambda expressions,
-- Method references,
-- Functional interfaces,
-- Stream API,
-- Default methods,
-- Base64 Encode Decode,
-- Static methods in interface,
-- Optional class,
+## Lambda expressions
+
+## Method references
+
+## Functional interfaces
+
+## Streams API
+
+Adds functional programming from Java 8. It can be defined by a stream pipeline and consists of a source, an intermediate operation (or zero) and a terminal operation. It also includes  includes the following advantages:
+
+- Adds efficiency in programming
+- Makes use of Lambda expressions
+- Facilitates the use of multi-thread via Parallel streams.
+
+## Default methods
+
+## Base64 Encode Decode
+
+## Static methods in interface
+
+## Optional class
