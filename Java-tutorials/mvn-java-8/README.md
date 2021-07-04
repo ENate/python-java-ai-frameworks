@@ -17,6 +17,8 @@ Adds functional programming from Java 8. It can be defined by a stream pipeline 
 - Makes use of Lambda expressions
 - Facilitates the use of multi-thread via Parallel streams.
 
+Stream operations source mainly come from the collections, operation can be a map, sorting etc. The intermediate operations can be changed, while terminal operation consists of reduction outcomes. Large data sets canbe filtered in intermediate operations to increase performance. Parallel streams are suited from large operations. Only one terminal operation can be assigned to a given stream operation.
+
 ## Default methods
 
 ## Base64 Encode Decode

@@ -1,10 +1,17 @@
-### Main Java 10 features
+# Main Java 10 features
 
-1) Application Data-Class Sharing. ...
-2) Parallel Full GC for G1. ...
-3) Garbage Collector Interface. ...
-4) Consolidate the JDK Forest into a Single Repository. ...
-5) Local-Variable Type Inference. ...
-6) Remove the Native-Header Generator Tool. ...
-7) Thread-Local Handshakes. ...
-8) Time-Based Release Versioning.
+## Application Data-Class Sharing
+
+## Parallel Full GC for G1
+
+## Garbage Collector Interface
+
+## Consolidate the JDK Forest into a Single Repository
+
+## Local-Variable Type Inference
+
+## Remove the Native-Header Generator Tool
+
+## Thread-local Handshakes
+
+## Time-based Release Versioning

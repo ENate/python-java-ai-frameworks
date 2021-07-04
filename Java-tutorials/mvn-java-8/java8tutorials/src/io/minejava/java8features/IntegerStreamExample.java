@@ -1,6 +1,6 @@
 import java.util.stream.IntStream;
 
-public class IntergerStream {
+public class IntegerStreamExample {
 
     public void streamIntegerOperationsExample(int startValue, int endValue) {
         // Integer stream
