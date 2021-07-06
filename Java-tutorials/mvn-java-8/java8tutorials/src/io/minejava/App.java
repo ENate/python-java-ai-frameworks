@@ -5,7 +5,6 @@ public class App {
         var lastValue = 10;
 
         integerStreamExample.streamIntegerOperationsExample(initValue, lastValue);
-        // System.out.println("Hello, World!");
-        Logger.info("Hello, world!");
+        System.out.println("Hello, World!");
     }
 }

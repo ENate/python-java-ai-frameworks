@@ -20,22 +20,22 @@
 
 The structure of the entire folder is shown below:
 
-├── Algorithms
-│   ├── SortingAlgorithm
-│   └── Sums
-│   ├── algorithms
-│   │   └── SortingAlgorithm
-│   │   └── quicksort
-│   ├── SumOfArrayElements.class
-│   └── SumOfArrayElements.java
-├── Data-Structures
-│   └── page01
-├── java-10-features
-│   └── README.md
+── Algorithms  
+│   ├── SortingAlgorithm  
+│   └── Sums  
+│
+├── Data-Structures  
+│
+├── java-10-features  
+├── java-algorithms  
+│
+├── many-tutorial-topics
+│   
 ├── misc_files
-│   ├── SpiderCrawler.java
-│   └── SpiderLeg.java
 ├── ML-tutorials
-├── mvn-java-8
-│   └── README.md
-└── README.md
+│   ├── python3-main-features
+│   └── tensorflow-2-features
+│       
+└── mvn-java-8  
+    ├── java8tutorials  
+    └── spring-java-8-features  
