@@ -14,7 +14,7 @@
     <name>java8features</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>14</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -38,15 +38,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-        <dependencies>
-            <!-- Include TensorFlow (pure CPU only) for all supported platforms -->
-            <dependency>
-                <groupId>org.tensorflow</groupId>
-                <artifactId>tensorflow-core-platform</artifactId>
-                <version>0.3.1</version>
-            </dependency>
-        </dependencies>
+        <!-- Include TensorFlow (pure CPU only) for all supported platforms -->
+        <dependency>
+            <groupId>org.tensorflow</groupId>
+            <artifactId>tensorflow-core-platform</artifactId>
+            <version>0.3.1</version>
+        </dependency>
 
     </dependencies>
 

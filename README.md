@@ -20,22 +20,22 @@
 
 The structure of the entire folder is shown below:
 
-── Algorithms  
-│   ├── SortingAlgorithm  
-│   └── Sums  
+── Algorithms
+│   ├── SortingAlgorithm
+│   └── Sums
 │
-├── Data-Structures  
+├── Data-Structures
 │
-├── java-10-features  
-├── java-algorithms  
+├── java-10-features
+├── java-algorithms
 │
 ├── many-tutorial-topics
-│   
+│
 ├── misc_files
 ├── ML-tutorials
 │   ├── python3-main-features
 │   └── tensorflow-2-features
-│       
-└── mvn-java-8  
-    ├── java8tutorials  
-    └── spring-java-8-features  
+│
+└── mvn-java-8
+    ├── java8tutorials
+    └── spring-java-8-features
