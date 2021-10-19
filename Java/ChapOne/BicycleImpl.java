@@ -13,7 +13,7 @@ class BicycleImpl implements InterfaceBicycle
     int gearI = 1;
     // All methods in the interface have to be implemented
     public BicycleImpl(){
-        
+
     }
     public static void main(String [] args) {
         BicycleImpl bikeImpl = new BicycleImpl();
@@ -27,7 +27,7 @@ class BicycleImpl implements InterfaceBicycle
     }
 
     public void speedUpI(int increment) {
-         speedI = speedI + increment;   
+         speedI = speedI + increment;
     }
 
     public void applyBrakesI(int decrement) {
@@ -36,7 +36,7 @@ class BicycleImpl implements InterfaceBicycle
 
     public void printStates() {
          System.out.println("cadence:" +
-             cadenceI + " speed:" + 
+             cadenceI + " speed:" +
              speedI + " gear:" + gearI);
     }
 

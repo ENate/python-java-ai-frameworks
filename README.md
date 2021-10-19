@@ -1,4 +1,4 @@
-# Main Project struction
+# Main Project structure
 
 1. Tutorial consist of c++, Java and Python core features, algorithms and web application programming interfaces (APIs).
 
@@ -12,13 +12,14 @@ While older versions of the aformentioned technology stacks are compatible with 
 
 The main part of the project consist of the following
 
-### Python-tutorials: - containing the following folders:
+### Python containing the following sub folders:
 
 - Algorithms
 - Data Structures
 - Machine Learning
+- Flask and Django for Python web programming examples
 
-### Java-tutorials contains the following folders
+### Java-tutorials contains the following sub folders
 
 - Algorithms
 - Data Structures
@@ -28,7 +29,7 @@ The main part of the project consist of the following
 
 
 
-### c++ folder consists of the following sub-folders
+### The c++ folder consists of the following sub folders
 
 - cppfeatures - for core features in c++ 11 (and above)
 - chapter_2 for useful c++ features.
@@ -36,5 +37,3 @@ The main part of the project consist of the following
 ### Spring Tensorflow examples
 
 The structure of the entire repository is shown below
-
-

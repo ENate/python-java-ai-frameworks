@@ -18,7 +18,7 @@ public class Bicycle
     public Bicycle()
     {
         // initialise instance variables
-        
+
     }
 
     /**
@@ -31,7 +31,7 @@ public class Bicycle
     {
         // set newValue to gear
         cadence = newValue;
-        
+
     }
     // Doe for gear
     void changeGear(int gearValue) {

@@ -10,7 +10,7 @@ int addValues(int xVal, int yVal) // xVal and yVal are created and enter scope h
 int main()
 {
     // Create variables
-    // Local variables inside the function body should 
+    // Local variables inside the function body should
     // be defined as close to their first use as reasonable:
 
 
@@ -23,5 +23,5 @@ int main()
 
     return 0;
 } // Both go out of scope and are destroyed here
-// Note that if function add were to be called twice, parameters x and y 
+// Note that if function add were to be called twice, parameters x and y
 // would be created and destroyed twice -- once for each call.

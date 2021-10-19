@@ -32,11 +32,11 @@ public class ArrayDemo
         doubledArray[1][0] = 11;
         doubledArray[1][1] = 2;
     }
-    
+
     public static void main(String [] args) {
         ArrayDemo arrayDemo = new ArrayDemo();
         System.out.println("The Array values are " + arrayDemo.anArray[0] + arrayDemo.anArray[1]);
-    
+
         System.arraycopy(arrayDemo.anArray, 0, arrayDemo.arrayDest, 0, 2);
         for (int val: arrayDemo.arrayDest){
             System.out.println(val + " ");
@@ -47,16 +47,16 @@ public class ArrayDemo
             System.out.println(valuesToCpy + " ");
         }
         // Converting an array to a string
-        System.out.println(java.util.Arrays.toString(copyTo)); 
-        
+        System.out.println(java.util.Arrays.toString(copyTo));
+
         // String formatting the double array
         System.out.println(java.util.Arrays.toString(new ArrayDemo().doubledArray));
         // Using aggregrations
-        java.util.Arrays.stream(copyTo).map(vals -> vals).forEach(System.out::print);  
+        java.util.Arrays.stream(copyTo).map(vals -> vals).forEach(System.out::print);
 
-        
-        
+
+
     }
 
-    
+
 }

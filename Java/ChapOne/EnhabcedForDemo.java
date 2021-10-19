@@ -8,7 +8,7 @@
 public class EnhabcedForDemo
 {
     // instance variables - replace the example below with your own
-    
+
     // Defining enhanced for
     void enhancedFor(int [] anArray) {
         System.out.println("Count using the enhanced for...");

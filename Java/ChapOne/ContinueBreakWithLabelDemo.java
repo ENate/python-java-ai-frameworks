@@ -26,19 +26,19 @@ public class ContinueBreakWithLabelDemo
         // Variables for the unlabeled break and labeled labeled statements
         // break Label object class
         BreakWithLabelDemo breakWithLabelDemo = new BreakWithLabelDemo();
-        
-        int[] arrayOfIntsLabel = 
+
+        int[] arrayOfIntsLabel =
                 { 32, 87, 3, 589,
                   12, 1076, 2000,
                   8, 622, 127 };
-        
+
         int searchforLabel = 12;
         int iLabel=0;
         boolean foundItL = false;
-        
+
         breakWithLabelDemo.foundBreak(arrayOfIntsLabel, searchforLabel, foundItL, iLabel);
         //============================================================================
-        int[][] arrayOfInts = { 
+        int[][] arrayOfInts = {
                 { 32, 87, 3, 589 },
                 { 12, 1076, 2000, 8 },
                 { 622, 127, 77, 955 }

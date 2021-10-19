@@ -8,7 +8,7 @@
 public class BicycleDemo
 {
     // instance variables - replace the example below with your own
-    
+
 
     /**
      * Constructor for objects of class BicycleDemo
@@ -20,7 +20,7 @@ public class BicycleDemo
 
     /**
      * Define the main method as entry point of the program.
-     * Create two Bicycle objects and print state (fields) and behaviours (methods) 
+     * Create two Bicycle objects and print state (fields) and behaviours (methods)
      * of the Bicycle class.
      */
     public static void main(String [] args) {

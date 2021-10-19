@@ -32,7 +32,7 @@ void labeledBreak(int[][] arrayOfInts, int searchfor, boolean foundIt, int i, in
                 }
             }
         }
-        
+
         if (foundIt) {
             System.out.println("Found " + searchfor + " at " + i + ", " + j);
         } else {

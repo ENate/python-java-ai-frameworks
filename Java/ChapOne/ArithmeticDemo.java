@@ -13,19 +13,19 @@ public class ArithmeticDemo
         // sums to 3
         System.out.println("The result is now: " + result);
         int originalResult = result;
-        
+
         // doubles the original result
         int newResult = originalResult * 2;
         System.out.println("The new result is now: " + newResult);
-        
+
         int increment = 1;
         // prefix
         increment++;
         System.out.println("Prints 2: " + increment);
         ++increment;
         System.out.println("Prints 3: " + increment);
-        System.out.println("The prefix increment: " + ++increment);        
-        // postfix 
+        System.out.println("The prefix increment: " + ++increment);
+        // postfix
         System.out.println("The prefix increment: " + increment++);
         // Demonstrating tenary operator:
         int value1 = 12;

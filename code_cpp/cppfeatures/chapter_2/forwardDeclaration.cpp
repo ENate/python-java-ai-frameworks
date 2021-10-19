@@ -1,6 +1,6 @@
 // Defines a function before call and implementation
 #include <iostream>
- //Name our parameters (using the same names as the actual function), because it allows you to understand what the 
+ //Name our parameters (using the same names as the actual function), because it allows you to understand what the
  // function parameters are just by looking at the prototype.
 int declaredFunction(int firstValue, int secondValue); // forward declaration of add() (using a function prototype)
 

@@ -18,7 +18,7 @@ interface InterfaceBicycle
     void speedUpI(int increment);
     // Braking method
     void applyBrakesI(int decrement);
-    
 
-    
+
+
 }
