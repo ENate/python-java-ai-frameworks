@@ -1,11 +1,11 @@
 #include "sqHeaderGuard.h"
 
-int getSquareSides()
+int getSquareSides() // actual definition for getSquareSides
 {
     return 4;
 }
 
-int getSquareParameter(int sideLength)
+int getSquarePerimeter(int sideLength)
 {
     return sideLength * getSquareSides();
 }

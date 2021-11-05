@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.2)
+project( exampleOpencv )
+find_package( OpenCV REQUIRED )
+message(STATUS "cv libs: ${OpenCV_LIBS}")
+message(STATUS "include_path: ${OpenCV_INCLUDE_DIRS}")
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+# specify the C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+add_executable(exampleOpencv  exampleOpencv.cpp )
+target_link_libraries( exampleOpencv ${OpenCV_LIBS} )

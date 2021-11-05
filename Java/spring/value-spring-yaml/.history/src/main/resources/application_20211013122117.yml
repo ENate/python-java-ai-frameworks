@@ -1,0 +1,8 @@
+my:
+    message: Goodday, Sir
+    list:
+        values: 1, 2, 3, 4
+db:
+    connection: "{connectionString:'httpstring', username:'UnserName'}"
+    ports: 1200
+d   host: 127.0.0.1

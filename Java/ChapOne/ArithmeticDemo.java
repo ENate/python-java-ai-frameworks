@@ -3,7 +3,7 @@
  * Write a description of class ArithmeticDemo here.
  *
  * @author (your name)
- * @version (a version number or a date)
+i * @version (a version number or a date)
  */
 public class ArithmeticDemo
 {
@@ -33,5 +33,7 @@ public class ArithmeticDemo
         boolean myCondition = value1 < value2;
         int resultTenary = myCondition ? value2 : value1;
         System.out.println("Tenary operator ?: result: " + resultTenary);
+        System.out.println("The end of this program");
+
     }
 }

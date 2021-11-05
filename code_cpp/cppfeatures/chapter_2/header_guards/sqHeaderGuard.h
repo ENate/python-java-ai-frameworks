@@ -1,7 +1,7 @@
-#ifndef SQUARE_H
-#define SQUARE_H
+#ifndef SQHEADERGUARD_H
+#define SQHEADERGUARD_H
 
 int getSquareSides(); // forward declaration for getSquareSides
-int getSquarePerimeter(int sideLength);// forward declaration for getSquarePerimeter
+int getSquarePerimeter(int sideLength); // forward declaration for getSquarePerimeter
 
 #endif
