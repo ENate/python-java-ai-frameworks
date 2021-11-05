@@ -1,5 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "python.formatting.provider": "black",
-    "python.pythonPath": "/home/nath/miniconda3/envs/cvimage/bin/python"
+    "python.pythonPath": "~/miniconda3/envs/cvimage/bin/python"
 }
