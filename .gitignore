@@ -8,12 +8,14 @@
 /.buildconfig
 /Java/opencv_files/.history
 # vscode
-.vscode
+/.vscode
 #
 /Java/.idea
 # maven and java
 /Java/.history
 /Java/.vscode/Java/*.class
+/.vscode
+/.vscode/settings.json
 /Java/opencv_files/opencv-example/.classpath
 /Java/opencv_files/opencv-example/.project
 /Java/opencv_files/opencv-example/.settings/org.eclipse.core.resources.prefs
