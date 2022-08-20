@@ -1,5 +1,9 @@
 {
     "java.configuration.updateBuildConfiguration": "interactive",
     "python.formatting.provider": "black",
-    "python.pythonPath": "~/miniconda3/envs/cvimage/bin/python"
+    "python.pythonPath": "~/miniconda3/envs/cvimage/bin/python",
+    "files.associations": {
+        "*.cpp": "cpp",
+        "type_traits": "cpp"
+    }
 }

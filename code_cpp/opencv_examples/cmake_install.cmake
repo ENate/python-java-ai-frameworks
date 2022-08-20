@@ -1,4 +1,4 @@
-# Install script for directory: /home/nath/several-java-python-tutorials/code_cpp/opencv_examples
+# Install script for directory: /several-java-python-tutorials/code_cpp/opencv_examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
