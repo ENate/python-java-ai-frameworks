@@ -5,5 +5,6 @@
     "files.associations": {
         "*.cpp": "cpp",
         "type_traits": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/cppModernFeatures"
 }
