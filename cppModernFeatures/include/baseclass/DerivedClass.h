@@ -31,6 +31,9 @@ namespace derivedclass {
             DerivedClass(DerivedClass&& lhss);
             DerivedClass& operator=(DerivedClass&& lhss) noexcept;
 
+            // norms
+            void printHey();
+
             // some complex num operator
             friend DerivedClass operator+(const DerivedClass& a, const DerivedClass& b);
             friend DerivedClass operator-(const DerivedClass& areal, const DerivedClass& bImg);

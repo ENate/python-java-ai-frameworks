@@ -77,6 +77,11 @@ namespace derivedclass {
         return os << "(" << dt.getReal() << "," << dt.getImg() << ")";
       }
 
+      void DerivedClass::printHey()
+      {
+        std::cout << "This is from derived class!!!" << '\n';
+      }
+
 
 
     double DerivedClass::getReal() const
