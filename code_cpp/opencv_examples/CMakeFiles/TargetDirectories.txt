@@ -1,5 +1,0 @@
-/home/nath/several-java-python-tutorials/code_cpp/opencv_examples/CMakeFiles/rebuild_cache.dir
-/home/nath/several-java-python-tutorials/code_cpp/opencv_examples/CMakeFiles/edit_cache.dir
-/home/nath/several-java-python-tutorials/code_cpp/opencv_examples/CMakeFiles/pyramidOpencv.dir
-/home/nath/several-java-python-tutorials/code_cpp/opencv_examples/CMakeFiles/displayImageStarryNight.dir
-/home/nath/several-java-python-tutorials/code_cpp/opencv_examples/CMakeFiles/exampleOpencv.dir

@@ -1,5 +1,0 @@
-hello.message: Goodday, Sir
-my.list.values: 1, 2, 3, 4
-db.conncetion: "{connectionString:'httpstring', username:'UnserName'}"
-db.ports: 1200
-db.host: 127.0.0.1
