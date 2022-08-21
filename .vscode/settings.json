@@ -6,5 +6,25 @@
         "*.cpp": "cpp",
         "type_traits": "cpp"
     },
-    "cmake.sourceDirectory": "${workspaceFolder}/cppModernFeatures"
+    "cmake.sourceDirectory": "${workspaceFolder}/cppModernFeatures",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#9ae58c",
+        "activityBar.background": "#9ae58c",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#7d8de2",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#9ae58c",
+        "statusBar.background": "#76db63",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#52d13a",
+        "statusBarItem.remoteBackground": "#76db63",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#76db63",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#76db6399",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.remoteColor": "#76db63"
 }

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-namespace inheritance {
+namespace baseclass {
 
   /**  Language codes to be used with the BaseClass class */
   enum class LanguageCode { EN, DE, ES, FR };

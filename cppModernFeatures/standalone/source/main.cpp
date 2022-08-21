@@ -1,17 +1,18 @@
-#include "inheritance/BaseClass.h"
-#include <inheritance/version.h>
+#include "baseclass/BaseClass.h"
+#include "baseclass/version.h"
 
 #include <cxxopts.hpp>
 #include <iostream>
 #include <string>
 #include <unordered_map>
+using namespace baseclass;
 
 auto main(int argc, char** argv) -> int {
-  const std::unordered_map<std::string, greeter::LanguageCode> languages{
-      {"en", BaseClass::LanguageCode::EN},
-      {"de", BaseClass::LanguageCode::DE},
-      {"es", BaseClass::LanguageCode::ES},
-      {"fr", BaseClass::LanguageCode::FR},
+  const std::unordered_map<std::string, baseclass::LanguageCode> languages{
+      {"en", baseclass::LanguageCode::EN},
+      {"de", baseclass::LanguageCode::DE},
+      {"es", baseclass::LanguageCode::ES},
+      {"fr", baseclass::LanguageCode::FR},
   };
 
   cxxopts::Options options(*argv, "A program to welcome the world!");
@@ -46,7 +47,7 @@ auto main(int argc, char** argv) -> int {
     return 1;
   }
 
-  BaseClass::BaseClass baseClass(name);
+  baseclass::BaseClass baseClass(name);
   std::cout << baseClass.printMessage(langIt->second) << std::endl;
 
   return 0;

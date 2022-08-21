@@ -1,13 +1,13 @@
 #include <doctest/doctest.h>
-#include "inheritance/BaseClass.h"
-#include <inheritance/version.h>
+#include "baseclass/BaseClass.h"
+#include <baseclass/version.h>
 
 #include <string>
 
 TEST_CASE("BaseClass") {
   using namespace inheritance;
 
-  Greeter greeter("Tests");
+  BaseClass baseclass("Tests");
 
   CHECK(BaseClass.printMessage(LanguageCode::EN) == "Hello, Tests!");
   CHECK(BaseClass.printMessage(LanguageCode::DE) == "Hallo Tests!");

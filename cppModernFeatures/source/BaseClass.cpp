@@ -1,7 +1,7 @@
 #include <fmt/format.h>
-#include "inheritance/BaseClass.h"
+#include "baseclass/BaseClass.h"
 
-namespace inheritance {
+namespace baseclass {
 
 BaseClass::BaseClass(std::string _name) : name(std::move(_name)) {}
 
