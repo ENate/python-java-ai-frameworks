@@ -7,7 +7,10 @@ namespace derivedclass {
     DerivedClass::DerivedClass(int argsAge) : age{argsAge} {}
 
     DerivedClass::DerivedClass(int argage, std::string namearg, std::string usernameargs, std::string sname)
-    : BaseClass(sname), age{argage}, names{namearg}, username{usernameargs}
+        : BaseClass(sname),
+        age{argage},
+        names{namearg},
+        username{usernameargs}
     {
 
     }
@@ -36,20 +39,49 @@ namespace derivedclass {
 
         }
 
-    DerivedClass::DerivedClass(DerivedClass&& lhss)
+    DerivedClass& DerivedClass::operator=(DerivedClass&& lhss) noexcept
     {
         BaseClass::operator=(std::move(lhss));
         age = std::move(lhss.age);
         names = std::move(lhss.names);
         username = std::move(lhss.username);
+        return *this;
     }
 
     // firend operator+ impl
-    DerivedClass& derivedclass::operator+(DerivedClass& a, DerivedClass& b)
+    DerivedClass operator+(const DerivedClass& a, const DerivedClass& b)
       {
-         double aSum = a.realpart + b.realpart;
-         double bSum = b.imgPart + b.imgPart;
-         std::cout << "The real part is: " << aSum << '\n';
-         std::cout << "The real part is: " << bSum << '\n';
+         double aSum = a.getReal() + b.getReal();
+         double bSum = b.getImg() + b.getImg();
+         // DerivedClass& ampValue(aSum, bSum);
+         return DerivedClass(aSum, bSum);
       }
+
+      DerivedClass operator-(const DerivedClass& areal, const DerivedClass& bimg)
+      {
+         double aSum = areal.getReal() - bimg.getReal();
+         double bSum = areal.getImg() - bimg.getImg();
+         // DerivedClass& ampValue(aSum, bSum);
+         return DerivedClass(aSum, bSum);
+      }
+
+    double DerivedClass::getReal() const
+    {
+        return realpart;
+    }
+
+    void DerivedClass::setReal(double realpartargs)
+    {
+        realpart = realpartargs;
+    }
+
+    double DerivedClass::getImg() const
+    {
+        return imgPart;
+    }
+
+    void DerivedClass::setImg(double imgargs)
+    {
+        imgPart = imgargs;
+    }
 }

@@ -17,6 +17,7 @@ BaseClass::BaseClass(const BaseClass& brhs) : name{brhs.name}
 BaseClass& BaseClass::operator=(const BaseClass& rhs)
 {
   name = rhs.name;
+  return *this;
 }
 BaseClass::BaseClass(BaseClass&& brhs) : name{std::move(brhs.name)}
 {
@@ -25,8 +26,9 @@ BaseClass::BaseClass(BaseClass&& brhs) : name{std::move(brhs.name)}
 BaseClass& BaseClass::operator=(BaseClass&& rhs)
 {
   name = std::move(rhs.name);
+  return *this;
 }
-BaseClass::BaseClass(std::string& _name) : name(std::move(_name)) {}
+//BaseClass::BaseClass(std::string& _name) : name(std::move(_name)) {}
 
 std::string BaseClass::printMessage(LanguageCode lang) const {
   switch (lang) {

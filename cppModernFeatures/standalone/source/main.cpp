@@ -1,5 +1,6 @@
 #include "baseclass/BaseClass.h"
 #include "baseclass/version.h"
+#include "baseclass/DerivedClass.h"
 
 #include <cxxopts.hpp>
 #include <iostream>
@@ -49,6 +50,8 @@ auto main(int argc, char** argv) -> int {
 
   baseclass::BaseClass baseClass(name);
   std::cout << baseClass.printMessage(langIt->second) << std::endl;
+
+  //
 
   return 0;
 }

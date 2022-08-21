@@ -20,14 +20,20 @@ namespace derivedclass {
             DerivedClass(const DerivedClass& drhs);
             DerivedClass(int argage, std::string namearg, std::string usernameargs, std::string sname);
 
+            // Getters and setters
+            double getReal() const;
+            void setReal(double realpart);
+            double getImg() const;
+            void setImg(double imgpart);
             // copy assignment
             DerivedClass& operator=(const DerivedClass& lhs);
             // move semantics
             DerivedClass(DerivedClass&& lhss);
-            DerivedClass& operator=(DerivedClass&& lhss);
+            DerivedClass& operator=(DerivedClass&& lhss) noexcept;
 
             // some complex num operator
-            friend DerivedClass& operator+(DerivedClass& a, DerivedClass& b);
+            friend DerivedClass operator+(const DerivedClass& a, const DerivedClass& b);
+            friend DerivedClass operator-(const DerivedClass& areal, const DerivedClass& bImg);
     };
 }
 #endif
