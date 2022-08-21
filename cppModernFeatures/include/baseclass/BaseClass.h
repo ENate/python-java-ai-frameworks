@@ -20,7 +20,15 @@ namespace baseclass {
      * @brief Creates a new greeter
      * @param name the name to greet
      */
-    BaseClass(std::string name);
+    // No args constructor
+    BaseClass();
+    BaseClass(std::string& name);
+    BaseClass(const BaseClass& rhs);
+    BaseClass& operator=(const BaseClass& rhs);
+
+    // Move semantis
+    BaseClass(BaseClass&& mrhs);
+    BaseClass& operator=(BaseClass&& mrhs);
 
     /**
      * @brief Creates a localized string containing the greeting

@@ -26,5 +26,6 @@
         "titleBar.inactiveBackground": "#76db6399",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.remoteColor": "#76db63"
+    "peacock.remoteColor": "#76db63",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
