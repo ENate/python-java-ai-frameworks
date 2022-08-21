@@ -7,6 +7,7 @@
 #include <string>
 #include <unordered_map>
 using namespace baseclass;
+using namespace derivedclass;
 
 auto main(int argc, char** argv) -> int {
   const std::unordered_map<std::string, baseclass::LanguageCode> languages{
@@ -52,6 +53,15 @@ auto main(int argc, char** argv) -> int {
   std::cout << baseClass.printMessage(langIt->second) << std::endl;
 
   //
-
+  derivedclass::DerivedClass dclass(4.5, 3.4);
+  derivedclass::DerivedClass dclass1(1.2, 3.4);
+  derivedclass::DerivedClass resClass= dclass + dclass1;
+  std::cout << "The result is " << resClass << '\n';
+  derivedclass::DerivedClass subClass = dclass - dclass1;
+  std::cout << "The subtraction is: " << subClass << '\n';
+  derivedclass::DerivedClass dclass3(4, 3);
+  derivedclass::DerivedClass dclass13(1, 3);
+  derivedclass::DerivedClass mulCplx = dclass3 * dclass13;
+  std::cout << "Product of 2 complex numbers " << dclass << "and " << dclass13 <<"  is: " << mulCplx << '\n';
   return 0;
 }

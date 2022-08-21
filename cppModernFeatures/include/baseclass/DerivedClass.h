@@ -34,6 +34,8 @@ namespace derivedclass {
             // some complex num operator
             friend DerivedClass operator+(const DerivedClass& a, const DerivedClass& b);
             friend DerivedClass operator-(const DerivedClass& areal, const DerivedClass& bImg);
+            friend DerivedClass operator*(const DerivedClass& xreal, const DerivedClass& yreal);
+            friend std::ostream& operator<<(std::ostream& os, const DerivedClass& dt);
     };
 }
 #endif

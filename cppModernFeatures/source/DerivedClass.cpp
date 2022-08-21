@@ -65,6 +65,20 @@ namespace derivedclass {
          return DerivedClass(aSum, bSum);
       }
 
+      DerivedClass operator*(const DerivedClass& xreal1, const DerivedClass& yreal2)
+      {
+        double xxreal = xreal1.getReal() * yreal2.getReal() - xreal1.getImg() * yreal2.getImg();
+        double yyreal = xreal1.getImg() * yreal2.getReal() + xreal1.getReal() * yreal2.getImg();
+        return DerivedClass(xxreal,  yyreal);
+      }
+
+      std::ostream& operator<<(std::ostream& os, const DerivedClass& dt)
+      {
+        return os << "(" << dt.getReal() << "," << dt.getImg() << ")";
+      }
+
+
+
     double DerivedClass::getReal() const
     {
         return realpart;
