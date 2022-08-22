@@ -51,7 +51,7 @@ public class PersonImpl2<T> implements CheckPerson<T> {
         return false;
     }
 
-    public void printPersonsWithPredicate(List<PersonImpl2<T>> proster, CheckPerson<PersonImpl2> tester) {
+    public void printPersonsWithPredicate(List<PersonImpl2<T>> proster, CheckPerson<PersonImpl2<T>> tester) {
         for (PersonImpl2<T> p2 : proster) {
             if(tester.testMethod(p2)) {
                 p2.printPerson();
