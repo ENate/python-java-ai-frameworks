@@ -2,22 +2,7 @@ package sorting;
 
 import java.util.Arrays;
 
-public class AlgorithmsE {
-
-    public static void main(String[] args) {
-        int[] myArray = new int[]{12, 43, 100, 1, 2, 55, 67, 31, 3, 1, 10, 22, 6, 4, 5 , 6, 8};
-        System.out.println();
-        System.out.println("==========================Merge sorting.....==================");
-        System.out.println("The initial unsorted array: ");
-        System.out.println(Arrays.toString(myArray));
-        System.out.println();
-        System.out.println("The mid is: " + myArray.length / 2);
-        int arrSize = myArray.length;
-        int[] arrResult = mergeSort(myArray, arrSize );
-        System.out.println();
-        System.out.println("The sorted array is: ");
-        System.out.println(Arrays.toString(arrResult));
-    }
+public class MergeSortAlg {
 
 
     public static int[] mergeSort(int[] inputArray, int sizedArray) {
