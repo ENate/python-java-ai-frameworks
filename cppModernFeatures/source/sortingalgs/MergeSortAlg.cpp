@@ -11,7 +11,7 @@ std::array<int, 10> MergeSortAlg::getArrayToSort() const
     return arrayToSort;
 }
 
-void mulArray(int* piStart, int* piLast, int multiplier){
+void MergeSortAlg::mulArray(int* piStart, int* piLast, int multiplier){
 
      // Calculate the size of the array (how many values it holds)
      unsigned int uiArraySize = piLast - piStart;

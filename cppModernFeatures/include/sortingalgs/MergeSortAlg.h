@@ -8,6 +8,7 @@ namespace mergesortalg {
 
         private:
             int myArrSize;
+            int* myArray;
             std::array<int, 10> arrayToSort;
 
         public:
@@ -16,6 +17,8 @@ namespace mergesortalg {
             // Getters and Setters
             int getMyArrSize() const;
             std::array<int, 10> getArrayToSort() const;
+            // Merge sorter
+            void mulArray(int* piStart, int* piLast, int multiplier);
     };
 }
 #endif
