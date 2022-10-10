@@ -4,7 +4,7 @@ We present implementations of the popular sorting algorithms in Java. The librar
 
 - JDK 17
 - Maven 3.8
-- Visual Studio Code
+- Any of your favorite IDEs.
 
 ### The Quick Sort
 

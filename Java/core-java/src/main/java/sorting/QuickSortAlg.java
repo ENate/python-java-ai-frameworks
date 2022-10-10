@@ -17,7 +17,7 @@ public class QuickSortAlg {
         return null;
     }
 
-    static int partition(int[] arrMine, int beginIndex, int endIndex) {
+   public  static int partition(int[] arrMine, int beginIndex, int endIndex) {
 
         // find the pivot
         int pivotElement = arrMine[endIndex];

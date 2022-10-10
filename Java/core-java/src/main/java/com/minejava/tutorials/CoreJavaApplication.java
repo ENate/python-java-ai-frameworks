@@ -9,6 +9,7 @@ import com.minejava.tutorials.dao.CoreLambda;
 
 import sorting.BubbleSortAlg;
 import sorting.MergeSortAlg;
+import sorting.QuickSortAlg;
 
 public class CoreJavaApplication {
     public static void main(String[] args) {
@@ -59,6 +60,19 @@ public class CoreJavaApplication {
         System.out.println();
         System.out.println("The sorted array using Bubble Sort is: ");
         System.out.println(Arrays.toString(sorteds2));
+
+        int[] myArrayToSortX = new int[]{121, 43, 1001, 11, 12, 155, 67, 31, 3, 1, 10, 22, 6, 4, 5 , 6, 8};
+        System.out.println();
+        System.out.println("==========================Bubble sorting.....==================");
+        System.out.println("The initial unsorted array: ");
+        System.out.println(Arrays.toString(myArrayToSort));
+        System.out.println();
+        System.out.println("The mid is: " + myArrayToSortX.length / 2);
+        int arrSize3 = myArrayToSortX.length;
+        int[] sorteds3 = QuickSortAlg.qSortM(myArrayToSort, 0, arrSize3);
+        System.out.println();
+        System.out.println("The sorted array using Bubble Sort is: ");
+        System.out.println(Arrays.toString(sorteds3));
 
     }
 

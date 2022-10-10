@@ -10,6 +10,8 @@ namespace bubblesortalg {
         public:
             BubbleSortAlg() = default;
             BubbleSortAlg(int arrLenArg);
+            void mulArray(int* piStart);
+
     };
 }
 
