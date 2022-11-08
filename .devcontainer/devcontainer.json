@@ -59,7 +59,8 @@
 				"ms-vscode.makefile-tools",
 				"mongodb.mongodb-vscode",
 				"ms-vscode.cmake-tools",
-				"ms-vscode.cpptools"
+				"ms-vscode.cpptools",
+				"Tyriar.lorem-ipsum"
 			]
 		}
 	},

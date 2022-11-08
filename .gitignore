@@ -9,6 +9,7 @@
 /Java/opencv_files/.history
 # vscode
 /.vscode
+build
 #
 /build*
 /Java/.idea
