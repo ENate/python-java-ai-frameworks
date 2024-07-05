@@ -18,6 +18,8 @@ build
 /Java/.vscode/Java/*.class
 /.vscode
 /.vscode/settings.json
+# sweep classes
+Java/core-java/target
 /Java/opencv_files/opencv-example/.classpath
 /Java/opencv_files/opencv-example/.project
 /Java/opencv_files/opencv-example/.settings/org.eclipse.core.resources.prefs
