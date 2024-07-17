@@ -6,9 +6,8 @@
 		<groupId>com.myjavaai.tutorials</groupId>
 		<artifactId>java-ai-tutorials</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.minejava</groupId>
 	<artifactId>mysql-r2dbc-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mysql-r2dbc-app</name>

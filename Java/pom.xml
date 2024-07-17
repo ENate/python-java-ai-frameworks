@@ -16,8 +16,17 @@
     <packaging>pom</packaging>
     <description>Java AI APIs</description>
     <!-- Define properties for all services -->
-     <properties>
+    <properties>
         <!-- JDK Version for all services-->
         <java.version>22</java.version>
-     </properties>
+    </properties>
+    <modules>
+        <module>core-java</module>
+        <module>msg-driven</module>
+        <module>example-datastay</module>
+        <module>spring-grafana-cloud</module>
+        <module>mysql-r2dbc-app</module>
+        <module>greeting-common/pom.xml</module>
+		<module>greeting-service/pom.xml</module>
+    </modules>
 </project>

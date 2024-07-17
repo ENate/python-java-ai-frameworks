@@ -4,9 +4,8 @@ server:
 spring:
     application:
         name: datastay
-    data:
-        cassandra:
-            schema-action: create-if-not-exists
+    cassandra:
+        schema-action: create-if-not-exists
 
 astra:
     api:
@@ -19,7 +18,7 @@ astra:
             enabled: true
         driver-config:
             basic:
-              session-keyspace: datastay
+                session-keyspace: datastay
             advanced:
                 connection:
                     init-query-timeout: 10s

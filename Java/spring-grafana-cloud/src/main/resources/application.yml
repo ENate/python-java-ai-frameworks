@@ -1,0 +1,7 @@
+server:
+    port: 8981
+timefold:
+    benchmark:
+        solver:
+            termination:
+                spent-limit: 5s

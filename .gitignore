@@ -20,10 +20,15 @@ build
 /.vscode/settings.json
 # sweep classes
 Java/core-java/target
-/Java/opencv_files/opencv-example/.classpath
-/Java/opencv_files/opencv-example/.project
-/Java/opencv_files/opencv-example/.settings/org.eclipse.core.resources.prefs
-/Java/opencv_files/opencv-example/.settings/org.eclipse.jdt.core.prefs
-/Java/opencv_files/opencv-example/.settings/org.eclipse.m2e.core.prefs
-/Java/opencv_files/opencv-example/.settings/
 
+Java/opencv_files/opencv-example/.classpath
+Java/opencv_files/opencv-example/.project
+Java/opencv_files/opencv-example/.settings/org.eclipse.core.resources.prefs
+Java/opencv_files/opencv-example/.settings/org.eclipse.jdt.core.prefs
+Java/opencv_files/opencv-example/.settings/org.eclipse.m2e.core.prefs
+Java/opencv_files/opencv-example/.settings/
+cloud-infra/docker/vault-data/
+Java/greeting-common/.mvn
+Java/greeting-service/.mvn
+Java/example-datastay/.mvn
+Java/grpc-example/.mvn

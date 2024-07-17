@@ -4,15 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.myjavaai.tutorials</groupId>
-        <artifactId>java-ai-tutorials</artifactId>
+		<artifactId>java-ai-tutorials</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<groupId>com.minejava</groupId>
+
 	<artifactId>msg-driven</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>msg-driven</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Message app with spring cloud</description>
 
 	<dependencies>
 
