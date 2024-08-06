@@ -1,7 +1,7 @@
 package com.myjavaai.tutorials.springgrafanacloud.domain;
 
 /**
- * Represents rooms where lessons are taughte
+ * Represents rooms where lessons are taught
  */
 public class Room {
 

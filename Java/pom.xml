@@ -26,6 +26,7 @@
         <module>example-datastay</module>
         <module>spring-grafana-cloud</module>
         <module>mysql-r2dbc-app</module>
+        <module>spring-observe</module>
         <module>greeting-common/pom.xml</module>
 		<module>greeting-service/pom.xml</module>
     </modules>
