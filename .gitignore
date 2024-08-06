@@ -32,3 +32,5 @@ Java/greeting-common/.mvn
 Java/greeting-service/.mvn
 Java/example-datastay/.mvn
 Java/grpc-example/.mvn
+# Ignore
+/cloud-infra/alloy/endpoints-clouds.json
