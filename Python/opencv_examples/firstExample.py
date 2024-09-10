@@ -16,12 +16,12 @@ if k == ord("s"):
 
 # load image
 img = cv.imread(cv.samples.findFile('starry_night.jpg'))
-# convert to grayscale
+# convert to gray scale
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 # instantiate SURF
 surf = cv.xfeatures2d.SURF_create(7000)
-# compute keypoints
+# compute key points
 kp = surf.detect(img_gray, None)
-# plot keypoints
+# plot key points
 plt.imshow(cv.drawKeypoints(cv.cvtColor(img, cv.COLOR_BGR2RGB), kp, None, (0,255,0), 4))
 plt.show()

@@ -9,12 +9,11 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 	<artifactId>scs-example</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	
 	<name>scs-examples</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>22</java.version>
-		<cassandra-java-driver.version>4.15.0</cassandra-java-driver.version>
 	</properties>
 	<dependencies>
 		<dependency>

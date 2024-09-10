@@ -28,9 +28,46 @@ Java/opencv_files/opencv-example/.settings/org.eclipse.jdt.core.prefs
 Java/opencv_files/opencv-example/.settings/org.eclipse.m2e.core.prefs
 Java/opencv_files/opencv-example/.settings/
 cloud-infra/docker/vault-data/
+# greeting-common
 Java/greeting-common/.mvn
+Java/greeting-common/.settings
+# service
+Java/greeting-service/.settings
 Java/greeting-service/.mvn
+# datastay
 Java/example-datastay/.mvn
+Java/example-datastay/.settings
+.pydevproject
+Java/core-java/.classpath
+Java/spring-ai-vectordb/.classpath
+# msg-driven
+Java/msg-driven/.mvn
+Java/msg-driven/.classpath
+Java/msg-driven/.settings
+# grpc-example
 Java/grpc-example/.mvn
+Java/grpc-example/.settings
+# mysql-r2dbc-app
+Java/mysql-r2dbc-app/.mvn
+Java/mysql-r2dbc-app/.settings
+# spring-ai-vectordb
+Java/spring-ai-vectordb/.mvn
+Java/spring-ai-vectordb/.settings
+# spring-observe
+Java/spring-observe/.mvn
+Java/spring-observe/.settings
+# spring-grafana-cloud
+Java/spring-grafana-cloud/.mvn
+Java/spring-grafana-cloud/.classpath
+Java/spring-observe/.classpath
+
+
+Java/spring-grafana-cloud/.settings
 # Ignore
+cloud-infra/alloy
 /cloud-infra/alloy/endpoints-clouds.json
+# Eclipse
+Java/.project
+Java/.settings
+Java/core-java/.settings
+.settings

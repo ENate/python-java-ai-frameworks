@@ -18,39 +18,39 @@ import lombok.NoArgsConstructor;
 public class VisitEntity implements Serializable {
 
      /** Serial. */
-     private static final long serialVersionUID = -4289614095154632364L;
+    private static final long serialVersionUID = -4289614095154632364L;
 
      /** Group constants. */
-     public static final String VISIT_TABLE           = "petclinic_visit_by_pet";
-     public static final String VISIT_ATT_PET_ID      = "pet_id";
-     public static final String VISIT_ATT_VISIT_ID    = "visit_id";
-     public static final String VISIT_ATT_DESCRIPTION = "description";
-     public static final String VISIT_IDX_VISITID     = "petclinic_visit_by_pet_idx_visitid";
+    public static final String VISIT_TABLE           = "petclinic_visit_by_pet";
+    public static final String VISIT_ATT_PET_ID      = "pet_id";
+    public static final String VISIT_ATT_VISIT_ID    = "visit_id";
+    public static final String VISIT_ATT_DESCRIPTION = "description";
+    public static final String VISIT_IDX_VISITID     = "petclinic_visit_by_pet_idx_visitid";
 
 
-     @PartitionKey
-     @CqlName(VISIT_ATT_PET_ID)
-     private UUID petId;
+    @PartitionKey
+    @CqlName(VISIT_ATT_PET_ID)
+    private UUID petId;
 
-     @PartitionKey
-     @CqlName(VISIT_ATT_VISIT_ID)
-     private UUID visitId;
+    @PartitionKey
+    @CqlName(VISIT_ATT_VISIT_ID)
+    private UUID visitId;
 
-     @PartitionKey
-     @CqlName(VISIT_ATT_DESCRIPTION)
-     private String description;
+    @PartitionKey
+    @CqlName(VISIT_ATT_DESCRIPTION)
+    private String description;
 
      /** Constructor for PetId and visitId */
-     public VisitEntity(UUID visitId, UUID petId) {
+    public VisitEntity(UUID visitId, UUID petId) {
         this.petId = petId;
         this.visitId = visitId;
-     }
+    }
 
-     public VisitEntity(String petId, String visitId) {
+    public VisitEntity(String petId, String visitId) {
         this(UUID.fromString(petId), UUID.fromString(visitId));
-     }
+    }
 
-         /**
+    /**
      * Getter accessor for attribute 'petId'.
      *
      * @return

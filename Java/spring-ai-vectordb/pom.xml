@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>java-ai-tutorials</artifactId>
+        <groupId>com.myjavaai.tutorials</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.myjavaai.tutorials</groupId>
+    <artifactId>spring-ai-vectordb</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>spring-ai-vectordb</name>
+    <!-- FIXME change it to the project's website -->
+    <url>http://www.vec-db.com</url>
+    <properties>
+        <jobrunr.version>7.2.3</jobrunr.version>
+        <faster-xml.version>2.17.2</faster-xml.version>
+        <vaadin.version>24.4.0.beta3</vaadin.version>
+        <spring-ai.version>1.0.0-SNAPSHOT</spring-ai.version>
+    </properties>
+
+    <!-- Dependency management -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+				<groupId>org.springframework.ai</groupId>
+				<artifactId>spring-ai-bom</artifactId>
+				<version>${spring-ai.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+            <!-- Start vaadin BOM -->
+            <dependency>
+                <groupId>com.vaadin</groupId>
+                <artifactId>vaadin-bom</artifactId>
+                <version>${vaadin.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <!-- Spring-ai-dependency -->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- Start vaadin starter dependency -->
+        <dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-spring-boot-starter</artifactId>
+		</dependency>
+        <!-- End vaadin starter dependency -->
+        <!-- Start spring boot starter validation dependency -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <!-- Start Jobrunr dependency -->
+        <dependency>
+            <groupId>org.jobrunr</groupId>
+            <artifactId>jobrunr-spring-boot-3-starter</artifactId>
+            <version>${jobrunr.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${faster-xml.version}</version> <!-- use latest version -->
+        </dependency>
+        <!-- End Jobrunr dependency -->
+        <!-- Start Http components: needed for ssl configuration -->
+        <dependency>
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+        </dependency>
+        <!-- End http components -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>22</source>
+					<target>22</target>
+				</configuration>
+			</plugin>
+        </plugins>
+    </build>
+    <!-- Start repositories -->
+    <repositories>
+        <!-- Start spring ai repository -->
+        <repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+        <repository>
+			<id>vaadin-prereleases</id>
+			<url>https://maven.vaadin.com/vaadin-prereleases</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+    </repositories>
+    <!-- Vaadin plugin repository -->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>vaadin-prereleases</id>
+			<url>https://maven.vaadin.com/vaadin-prereleases</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

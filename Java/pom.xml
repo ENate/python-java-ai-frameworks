@@ -1,33 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.2</version>
-        <relativePath/>
-    </parent>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <groupId>com.myjavaai.tutorials</groupId>
-    <artifactId>java-ai-tutorials</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>java-ai-tutorials</name>
-    <packaging>pom</packaging>
-    <description>Java AI APIs</description>
-    <!-- Define properties for all services -->
-    <properties>
-        <!-- JDK Version for all services-->
-        <java.version>22</java.version>
-    </properties>
-    <modules>
-        <module>core-java</module>
-        <module>msg-driven</module>
-        <module>example-datastay</module>
-        <module>spring-grafana-cloud</module>
-        <module>mysql-r2dbc-app</module>
-        <module>spring-observe</module>
-        <module>greeting-common/pom.xml</module>
-		<module>greeting-service/pom.xml</module>
-    </modules>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.3.3</version>
+    <relativePath />
+  </parent>
+  <groupId>com.myjavaai.tutorials</groupId>
+  <artifactId>java-ai-tutorials</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>java-ai-tutorials</name>
+  <packaging>pom</packaging>
+  <description>Java AI APIs</description>
+  <!-- Define properties for all services -->
+  <properties>
+    <!-- JDK Version for all services-->
+    <java.version>22</java.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+  </dependencies>
+  <modules>
+    <module>core-java</module>
+    <module>msg-driven</module>
+    <module>example-datastay</module>
+    <module>spring-grafana-cloud</module>
+    <module>mysql-r2dbc-app</module>
+    <module>spring-observe</module>
+    <module>greeting-common/pom.xml</module>
+    <module>greeting-service/pom.xml</module>
+    <module>spring-ai-vectordb</module>
+  </modules>
 </project>
